@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kDCFPxuGkbjv2pWcXSvXbEBx3e7e7tEFrG9ty+p/EuA=",
+  "Source": "mnyControl.Api",
+  "BasePath": "_content/mnyControl.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

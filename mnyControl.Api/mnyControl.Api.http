@@ -1,0 +1,6 @@
+@mnyControl.Api_HostAddress = http://localhost:5252
+
+GET {{mnyControl.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
