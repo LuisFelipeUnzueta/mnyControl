@@ -150,6 +150,7 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.Gene
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.AssemblyInfoInputs.cache
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.AssemblyInfo.cs
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.csproj.CoreCompileInputs.cache
+C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.sourcelink.json
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\scopedcss\bundle\mnyControl.Api.styles.css
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.build.json
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.development.json

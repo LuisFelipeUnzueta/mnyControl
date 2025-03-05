@@ -5,6 +5,7 @@ C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.Ge
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.AssemblyInfoInputs.cache
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.AssemblyInfo.cs
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.csproj.CoreCompileInputs.cache
+C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.sourcelink.json
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.dll
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\refint\mnyControl.Core.dll
 C:\CsharpProjects\mnyControl\mnyControl.Core\obj\Debug\net8.0\mnyControl.Core.pdb
