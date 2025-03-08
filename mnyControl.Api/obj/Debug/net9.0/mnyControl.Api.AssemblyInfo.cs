@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mnyControl.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+991cc187f22c6e78a39357f77aa245fb2e12585b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cb1a060a7e84794701e6bb34e9c3c4bf265f2a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("mnyControl.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mnyControl.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

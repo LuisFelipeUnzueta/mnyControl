@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using mnyControl.Api.Data;
 using mnyControl.Api.Endpoints;
 using mnyControl.Api.Handlers;
+using mnyControl.Api.Models;
 using mnyControl.Core.Handlers;
 
 
@@ -20,6 +21,10 @@ builder.Services.AddAuthorization();
 var cnnStr = builder.Configuration.GetConnectionString("DefaultConnection") ?? string.Empty;
 
 builder.Services.AddDbContext<AppDbContext>(x => { x.UseSqlServer(cnnStr); });
+builder.Services.AddIdentityCore<User>()
+    .AddRoles<IdentityRole<long>>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddApiEndpoints();
 
 
 builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
@@ -27,6 +32,9 @@ builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
 
 
 var app = builder.Build();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseSwagger();
 app.UseSwaggerUI();

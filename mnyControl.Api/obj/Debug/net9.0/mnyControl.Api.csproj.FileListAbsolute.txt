@@ -9,6 +9,9 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\mnyControl.Api.pdb
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Azure.Core.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Azure.Identity.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Humanizer.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Build.Locator.dll
@@ -30,6 +33,8 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extension
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
@@ -161,7 +166,6 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msb
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.mnyControl.Api.props
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.mnyControl.Api.props
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.pack.json
-C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyContr.5E17CCF6.Up2Date
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\refint\mnyControl.Api.dll
