@@ -172,3 +172,4 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\refint\mnyControl.A
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.pdb
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.genruntimeconfig.cache
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\ref\mnyControl.Api.dll
+C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

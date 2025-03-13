@@ -1,44 +1,25 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using mnyControl.Api.Data;
+using mnyControl.Api.Common.Api;
 using mnyControl.Api.Endpoints;
-using mnyControl.Api.Handlers;
-using mnyControl.Api.Models;
-using mnyControl.Core.Handlers;
 
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(x => x.CustomSchemaIds(n => n.FullName));
-
-builder.Services
-    .AddAuthentication(IdentityConstants.ApplicationScheme)
-    .AddIdentityCookies();
-builder.Services.AddAuthorization();
-
-
-var cnnStr = builder.Configuration.GetConnectionString("DefaultConnection") ?? string.Empty;
-
-builder.Services.AddDbContext<AppDbContext>(x => { x.UseSqlServer(cnnStr); });
-builder.Services.AddIdentityCore<User>()
-    .AddRoles<IdentityRole<long>>()
-    .AddEntityFrameworkStores<AppDbContext>()
-    .AddApiEndpoints();
-
-
-builder.Services.AddTransient<ICategoryHandler, CategoryHandler>();
-builder.Services.AddTransient<ITransactionHandler, TransactionHandler>();
-
+builder.AddConfiguration();
+builder.AddSecurity();
+builder.AddDataContexts();
+//builder.AddCrossOrigin();
+builder.AddDocumentation();
+builder.AddServices();
 
 var app = builder.Build();
 
-app.UseAuthentication();
-app.UseAuthorization();
+if(app.Environment.IsDevelopment())
+{
+    app.ConfigureDevEnvironment();
+}
 
-app.UseSwagger();
-app.UseSwaggerUI();
+app.UseSecurity();
 
 app.MapEndpoints();
+
 
 app.Run();
