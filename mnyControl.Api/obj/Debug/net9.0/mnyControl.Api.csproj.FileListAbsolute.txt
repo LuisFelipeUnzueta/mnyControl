@@ -166,10 +166,10 @@ C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msb
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.mnyControl.Api.props
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.mnyControl.Api.props
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.pack.json
+C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyContr.5E17CCF6.Up2Date
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\refint\mnyControl.Api.dll
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.pdb
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\mnyControl.Api.genruntimeconfig.cache
 C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\ref\mnyControl.Api.dll
-C:\CsharpProjects\mnyControl\mnyControl.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

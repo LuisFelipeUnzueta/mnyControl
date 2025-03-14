@@ -54,21 +54,21 @@ namespace mnyControl.Api.Common.Api
                 .AddApiEndpoints();
         }
 
-        //public static void AddCrossOrigin(this WebApplicationBuilder builder)
-        //{
-        //    builder.Services.AddCors(
-        //        options => options.AddPolicy(
-        //            ApiConfiguration.CorsPolicyName,
-        //            policy => policy
-        //                .WithOrigins([
-        //                    Configuration.BackendUrl,
-        //                Configuration.FrontendUrl
-        //                ])
-        //                .AllowAnyMethod()
-        //                .AllowAnyHeader()
-        //                .AllowCredentials()
-        //        ));
-        //}
+        public static void AddCrossOrigin(this WebApplicationBuilder builder)
+        {
+            builder.Services.AddCors(
+                options => options.AddPolicy(
+                    ApiConfiguration.CorsPolicyName,
+                    policy => policy
+                        .WithOrigins([
+                            Configuration.BackendUrl,
+                        Configuration.FrontendUrl
+                        ])
+                        .AllowAnyMethod()
+                        .AllowAnyHeader()
+                        .AllowCredentials()
+                ));
+        }
 
         public static void AddServices(this WebApplicationBuilder builder)
         {

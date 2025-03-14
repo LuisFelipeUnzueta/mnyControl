@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.AddConfiguration();
 builder.AddSecurity();
 builder.AddDataContexts();
-//builder.AddCrossOrigin();
+builder.AddCrossOrigin();
 builder.AddDocumentation();
 builder.AddServices();
 
@@ -16,6 +16,8 @@ if(app.Environment.IsDevelopment())
 {
     app.ConfigureDevEnvironment();
 }
+
+app.UseCors();
 
 app.UseSecurity();
 
